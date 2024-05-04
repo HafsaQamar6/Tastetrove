@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breakfast</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="navbar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Taste Trove</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="community.html">Tips</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Recipes
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="breakfast.html">Breakfast</a></li>
+                  <li><a class="dropdown-item" href="dinner.html">Dinner</a></li>
+                  <li><a class="dropdown-item" href="snacks.html">Snacks</a></li>
+                  <li><a class="dropdown-item" href="deserts.html">Dessert</a></li>
+                  <!-- <li><hr class="dropdown-divider" /></li> -->
+                  <li>
+                    <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  aria-disabled="false"
+                  >Meal Planner</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Find Recipes"
+                aria-label="Search"
+              />
+              <button onclick="display('sectionTnp')" class="btn btn-outline-success" type="submit">
+                Yummy!
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+    
+    <section id="features">
+        <div class="container px-4 py-5" id="custom-cards">
+            <h2 class="pb-2 border-bottom" style="border-radius:5px ; padding: 3px 12px;display: inline-block; background-color: rgb(247, 247, 247);">Healthy Breakfast Recipes</h2>
+
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+              <div class="col"><a href="capresesalad.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./1.png'); background-repeat: no-repeat;
+                background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Caprese Salad</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                        <li>
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: rgb(6, 158, 6);
+                        ">Veg</small>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+                </a>
+              </div>
+              <div class="col">
+                <a href="muffins.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS02xECuysLXnSpKTRbgnexO9GvB8dETzLaTQ&s'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Muffins</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    
+                      <li class="d-flex align-items-center">
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: #f24500;">breki</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </a>
+              </div>
+              <div class="col">
+                <a href="sunriseserenade.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSk4xrrqpXK7563fAi898FWbcDFR-1KKHh7A&s'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Sunrise Serenade</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    
+                      <li class="d-flex align-items-center">
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: #f24500;">breki</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </a>
+              </div>
+              <div class="col">
+                <a href="perfrait.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi6xGq3egiDT06FRBJaWiXjuyVPpJgIgHp6A&s'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Parfait with Greek Yogurt</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    
+                      <li class="d-flex align-items-center">
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: #f24500;">breki</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </a>
+              </div>
+              <div class="col">
+                <a href="omlete.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_0mPJ9xlkcCu4Nv2_bsMaNca2Ry7r-VsnFw&s'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Vegetable Omlete</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    
+                      <li class="d-flex align-items-center">
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: #f24500;">breki</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </a>
+              </div>
+              <div class="col">
+                <a href="avacadotoast.html">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('data:image/jpeg;base64,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'); background-size: cover;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Toast with avocado and poached egg</h3>
+                    <ul class="d-flex list-unstyled mt-auto">
+                    
+                      <li class="d-flex align-items-center">
+                        <small style="border-radius: 5px;
+                        padding: 3px 7px;
+                        background-color: #f24500;">breki</small>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <div class="col-md-4 d-flex align-items-center">
+          <a
+            href="/"
+            class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
+          >
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+         
+          <span class="mb-3 mb-md-0 text-body-secondary"
+            >I hope you find best recipes here :) </span>
+        </div>
+      </footer>
+    </section>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
